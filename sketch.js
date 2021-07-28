@@ -107,7 +107,7 @@ function feedDog()
         dog.addImage(dogimage);
     }
     Dfood.x = 250;
-    Dfood.velocityX = 17;
+    Dfood.velocityX = 20;
     Dfood.visible = 1
     foodObj.updateFoodStock(foodObj.foodStock-1);
     database.ref('/').update({

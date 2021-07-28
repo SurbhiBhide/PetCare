@@ -43,7 +43,7 @@ function setup() {
   submit = createButton("Submit");
   submit.position(850, 150);
   submit.mousePressed(()=>{
-    if(confirm("Input Dog name") == true){
+    if(confirm("Are You Sure?") == true){
     submit.hide();
     }else{
       submit.visible = true;
